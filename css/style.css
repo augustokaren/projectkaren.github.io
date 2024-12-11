@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7e2fa ;
+}
+
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.212) ;
+
+}
+
+.form-image{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(113, 207, 250);
+    padding: 1rem;
+}
+
+.form-image img{
+    width: 31rem;
+
+}
+
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 3rem;
+
+}
+
+
+.form-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    align-items: center; /* Centraliza o texto e o botão horizontalmente */
+    gap: 1.5rem
+}
+
+.form-header .title {
+    margin-bottom: 1rem; /* Espaçamento entre o título e o botão */
+}
+
+.login-button {
+    width: auto; /* Ajusta a largura automaticamente ou defina um valor fixo */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(121, 187, 245);
+    padding: 0.8rem 2rem; /* Aumenta o espaço interno do botão */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Torna o texto mais destacado */
+    transition: background-color 0.3s ease; /* Suaviza a mudança de cor ao passar o mouse */
+}
+
+.login-button button:hover {
+    background-color: beige; /* Altera a cor ao passar o mouse */
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black; /* Torna o texto mais visível */
+}
+
+
+.gender-title {
+    font-size: 1.5rem; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Torna o texto mais destacado */
+    margin-bottom: 1rem; /* Adiciona um espaço abaixo do título */
+    text-align: left; /* Alinha o texto à esquerda (opcional) */
+    color: #000; /* Define uma cor para o texto, se necessário */
+}
